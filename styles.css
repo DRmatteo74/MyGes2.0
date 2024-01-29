@@ -1,0 +1,128 @@
+
+.bg-blue{
+    background: #217BB1 !important;
+    color: white !important;
+}
+
+.text-blue{
+    color: #217BB1 !important;
+}
+
+.border-blue{
+    --bs-border-color: #217BB1 !important;
+    border-color: #217BB1 !important;
+}
+
+.round-image{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.offcanvas{
+    --bs-offcanvas-width : 300px !important;
+    top: 66px !important;
+    bottom: 64px !important;
+}
+
+.offcanvas-backdrop{
+    background: initial !important;
+}
+
+.custom-nav .accordion-button{
+    padding: initial !important;
+    background: none !important;
+    background-color: #217BB1 !important;
+    color: white !important;
+    border: 0 !important;
+    margin-right: 20px;
+}
+
+.custom-nav .accordion-item{
+    border: 0 !important;
+}
+
+.custom-nav .accordion-collapse{
+    background-color: #217BB1 !important;
+    color: white !important;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-item{
+    white-space: normal !important;
+}
+
+.dropdown-menu{
+    background-color: #217BB1 !important;
+}
+
+.page-content{
+    position: fixed;
+    top: 66px;
+    bottom: 64px;
+}
+
+.card{
+    background-color: #F3F3F3 !important;
+}
+
+.card-body{
+    padding: 0.6rem !important;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 30px;
+}
+
+.login-title{
+    max-width: 300px;
+}
+
+.truncate-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-day{
+    width: 30px;
+    height: 30px;
+    line-height: normal !important;
+}
+
+.btn-day:hover, .btn-day:active, .btn-day:checked, .btn-day.active{
+    background-color: #217BB1 !important;
+    color: white !important;
+}
+
+.btn-blue:active, .btn-blue:checked, .btn-blue.active, .btn-blue:hover{
+    background-color: #217BB1 !important;
+    color: white !important;
+}
+
+.p-size{
+    font-size: medium;
+}
+
+.person-size{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 406px){
+    .p-size{
+        font-size: small;
+    }
+    .person-size{
+        width: 40px;
+        height: 40px;
+    }
+}
